@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Container } from 'semantic-ui-react'
 
 class Portfolio extends Component {
   
   render() {
     return (
       <>
-        <h1>
-          Portfolio
-        </h1>
+        <Container>
+          <h1>Portfolio</h1>
+        </Container>
       </>
     )
   }

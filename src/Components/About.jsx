@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Container } from 'semantic-ui-react'
 
 class About extends Component {
   
   render() {
     return (
       <>
-        <h1>About</h1>
+        <Container>
+          <h1>About</h1>
+        </Container>
       </>
     )
   }
