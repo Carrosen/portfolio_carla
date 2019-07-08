@@ -2,6 +2,14 @@
          Site Overrides
 *******************************/
 
-.App-header {
-  color: red !important;
+/*******************************
+         LandingPage
+*******************************/
+
+#icon-linkedin {
+  color: black; 
+}
+
+#icon-github {
+  color: black; 
 }

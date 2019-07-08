@@ -760,8 +760,16 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
-.App-header {
-  color: red !important;
+/*******************************
+         LandingPage
+*******************************/
+
+#icon-linkedin {
+  color: black;
+}
+
+#icon-github {
+  color: black;
 }
 /*!
  * # Semantic UI 2.4.2 - Button
