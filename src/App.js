@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import LandingPage from './Components/LandingPage'
 import About from './Components/About'
 import Contact from './Components/Contact'
-import Header from './Components/Header'
+import HeaderMenu from './Components/HeaderMenu'
 import Portfolio from './Components/Portfolio'
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <>
-      <Header />
+      <HeaderMenu />
         <Switch>
           <Route exact path='/' component={LandingPage}></Route>
           <Route exact path='/portfolio' component={Portfolio}></Route>
