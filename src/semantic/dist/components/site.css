@@ -202,6 +202,9 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
+.container {
+  color: black !important;
+}
 
 
 /*******************************
@@ -213,4 +216,13 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 }
 #icon-github {
   color: black;
+}
+.ui.secondary.menu {
+  margin-top: 2rem !important;
+}
+.ui.secondary.menu .item {
+  color: black;
+}
+.text-top {
+  font-size: 14px;
 }

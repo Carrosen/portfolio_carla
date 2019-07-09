@@ -2,6 +2,10 @@
          Site Overrides
 *******************************/
 
+.container {
+  color: black !important;
+}
+
 /*******************************
          LandingPage
 *******************************/
@@ -12,4 +16,16 @@
 
 #icon-github {
   color: black; 
+}
+
+.ui.secondary.menu  {
+  margin-top: 2rem !important;
+}
+
+.ui.secondary.menu .item {
+  color: black;
+}
+
+.text-top {
+  font-size: 14px;
 }

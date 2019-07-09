@@ -1,38 +1,40 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { Menu } from 'semantic-ui-react'
+import { Menu, Container } from 'semantic-ui-react'
 
 class HeaderMenu extends Component {
   
   render() {
     return (
       <>
+      <Container>
         <Menu secondary>
           <Menu.Item
             as={Link}
             to='/'
-          >Carla Rosén</Menu.Item>
+          >CARLA ROSÉN</Menu.Item>
 
-            <Menu.Menu position='right'>
+            <Menu.Menu position='right' className='container'>
               <Menu.Item
                 name='portfolio'
                 as={Link}
                 to='/portfolio'
-              >portfolio</Menu.Item>
+              >PORTFOLIO</Menu.Item>
 
               <Menu.Item
-                name='About'
+                name='ABOUT'
                 as={Link}
                 to='/about'
               />
 
               <Menu.Item
-                name='Contact'
+                name='CONTACT'
                 as={Link}
                 to='/contact'
               />
             </Menu.Menu>
         </Menu>
+        </Container>
       </>
     )
   }
