@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Icon, Item, Image } from 'semantic-ui-react'
+import { Container, Icon, Item } from 'semantic-ui-react'
 
 class LandingPage extends Component {
   

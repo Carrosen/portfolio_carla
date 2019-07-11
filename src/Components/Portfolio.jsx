@@ -11,10 +11,13 @@ class Portfolio extends Component {
     return (
       <>
         <Container>
-          <h1>portfolio</h1>
-          <p>Click on the cards to go to the application</p>
 
-          <Card.Group itemsPerRow={3}>
+          <div className='portfolio-text'>
+            <h1>portfolio</h1>
+            <p>Click on the cards to go to the application</p>
+          </div>
+
+          <Card.Group itemsPerRow={2}>
           <Card href="https://cooper-calculator.netlify.com/">
             <Image src={cooper} wrapped ui={false} />
             <Card.Content>
@@ -24,20 +27,20 @@ class Portfolio extends Component {
             </Card.Content>
           </Card>
 
-          {/* <Card>
+          <Card href="https://glocal-news.netlify.com/news">
+            <Image className='card-image' src={glocalNews} wrapped ui={false} />
+            <Card.Content>
+              <Card.Description>
+                Glocal news
+              </Card.Description>
+            </Card.Content>
+          </Card>
+
+          <Card>
             <Image src={beingSthlm} wrapped ui={false} />
             <Card.Content>
               <Card.Description>
                 Being Stockholm
-              </Card.Description>
-            </Card.Content>
-          </Card> */}
-
-          <Card  href="https://glocal-news.netlify.com/news">
-            <Image src={glocalNews} wrapped ui={false} />
-            <Card.Content>
-              <Card.Description>
-                Glocal news
               </Card.Description>
             </Card.Content>
           </Card>

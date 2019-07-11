@@ -226,3 +226,13 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .text-top {
   font-size: 14px;
 }
+
+
+/*******************************
+         Portfolio
+*******************************/
+
+.portfolio-text {
+  text-align: center;
+  margin: 60px 0px 20px 0px;
+}
