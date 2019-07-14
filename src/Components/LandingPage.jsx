@@ -7,9 +7,12 @@ class LandingPage extends Component {
     return (
       <>
         <Container>
-          <h1 className='text-top'>Carla Rosén // portfolio</h1>
-            <p>Carla Rosén</p>
-            <p>web developer</p>
+            <h1 className='text-top'>Carla Rosén // portfolio</h1>
+
+          <div className='portfolio-text'>
+              <p>Hi, I'm Carla</p>
+              <p>web developer</p>
+          </div>
 
             <Item
               href="https://linkedin.com"

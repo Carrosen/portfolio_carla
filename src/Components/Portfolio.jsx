@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Card, Image } from 'semantic-ui-react'
+import { Container, Card, Image, Divider } from 'semantic-ui-react'
 import cooper from '../cooper.png'
 import beingSthlm from '../beingsthlm.png'
 import glocalNews from '../glocalnews.png'
@@ -13,9 +13,13 @@ class Portfolio extends Component {
         <Container>
 
           <div className='portfolio-text'>
-            <h1>portfolio</h1>
-            <p>Click on the cards to go to the application</p>
+            <h1>A selection of my projects</h1>
+            <p>Click to be redirected to an application</p>
           </div>
+
+          <br></br>
+          <Divider></Divider>
+          <br></br>
 
           <Card.Group itemsPerRow={2}>
           <Card href="https://cooper-calculator.netlify.com/">
