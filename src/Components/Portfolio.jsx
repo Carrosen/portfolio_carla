@@ -31,8 +31,8 @@ class Portfolio extends Component {
             </Card.Content>
           </Card>
 
-          <Card href="https://glocal-news.netlify.com/news">
-            <Image className='card-image' src={glocalNews} wrapped ui={false} />
+          <Card href="https://glocal-news.netlify.com/">
+            <Image src={glocalNews} wrapped ui={false} />
             <Card.Content>
               <Card.Description>
                 Glocal news
