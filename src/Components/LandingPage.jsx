@@ -15,7 +15,7 @@ class LandingPage extends Component {
           </div>
 
             <Item
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/carla-ros%C3%A9n-9a4903189/"
               id='icon-linkedin'
             >
               <Icon
