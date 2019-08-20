@@ -2,8 +2,12 @@
          Site Overrides
 *******************************/
 
+body {
+  background-color: white;
+}
+
 .container {
-  color: black !important;
+  color: #75A1AD !important;
 }
 
 /*******************************
@@ -11,11 +15,11 @@
 *******************************/
 
 #icon-linkedin {
-  color: black; 
+  color: #3F515F; 
 }
 
 #icon-github {
-  color: black; 
+  color: #3F515F; 
 }
 
 .ui.secondary.menu  {
@@ -23,11 +27,7 @@
 }
 
 .ui.secondary.menu .item {
-  color: black;
-}
-
-.text-top {
-  font-size: 14px;
+  color: #3F515F !important;
 }
 
 /*******************************
@@ -35,6 +35,12 @@
 *******************************/
 
 .portfolio-text {
+  text-align: center;
+  font-size: 55px;
+  margin: 60px 0px 20px 0px;
+}
+
+.text {
   text-align: center;
   margin: 60px 0px 20px 0px;
 }

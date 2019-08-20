@@ -7,8 +7,9 @@ class Contact extends Component {
     return (
       <>
         <Container>
-          <div className='portfolio-text'>
+          <div className='text'>
             <h1>Contact</h1>
+            <p>If you would like to get in touch with me, please contact me here: carla1.rosen@gmail.com</p>
           </div>
         </Container>
       </>

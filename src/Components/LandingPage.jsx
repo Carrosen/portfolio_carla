@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Container, Icon, Item } from 'semantic-ui-react'
+import { Container, Icon, Item, Image } from 'semantic-ui-react'
+import cr from '../cr.png'
 
 class LandingPage extends Component {
   
@@ -7,11 +8,9 @@ class LandingPage extends Component {
     return (
       <>
         <Container>
-            <h1 className='text-top'>Carla Rosén // portfolio</h1>
-
           <div className='portfolio-text'>
-              <p>Hi, I'm Carla</p>
-              <p>web developer</p>
+              <p>CARLA ROSÉN</p>
+              <Image src={cr} wrapped ui={false} />
           </div>
 
             <Item
