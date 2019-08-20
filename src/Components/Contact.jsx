@@ -14,7 +14,7 @@ class Contact extends Component {
             <Divider></Divider>
             <br></br>
 
-            <p>If you would like to get in touch with me, please contact me here: carla1.rosen@gmail.com</p>
+            <p className='contact-text'>If you would like to get in touch with me, please contact me here: carla1.rosen@gmail.com</p>
           </div>
         </Container>
       </>
