@@ -26,7 +26,11 @@ class Portfolio extends Component {
             <Image src={cooper} wrapped ui={false} />
             <Card.Content>
               <Card.Description>
-                Cooper
+                COOPER - 1 week challenge
+                <br></br>
+                Built with ReactJS, Ruby on Rails
+                <br></br>
+                Tested with RSpec, Cypress, Enzyme
               </Card.Description>
             </Card.Content>
           </Card>
@@ -35,7 +39,11 @@ class Portfolio extends Component {
             <Image src={glocalNews} wrapped ui={false} />
             <Card.Content>
               <Card.Description>
-                Glocal news
+                GLOCAL NEWS - 3 week challenge
+                <br></br>
+                Built with ReactJS, Ruby on Rails
+                <br></br>
+                Tested with RSpec, Cypress, Enzyme
               </Card.Description>
             </Card.Content>
           </Card>
@@ -44,7 +52,11 @@ class Portfolio extends Component {
             <Image src={beingSthlm} wrapped ui={false} />
             <Card.Content>
               <Card.Description>
-                Being Stockholm
+                BEING STOCKHOLM - Final project over 3 weeks
+                <br></br>
+                Built with ReactJS, Ruby on Rails
+                <br></br>
+                Tested with RSpec, Cypress
               </Card.Description>
             </Card.Content>
           </Card>
@@ -53,7 +65,11 @@ class Portfolio extends Component {
             <Image src={rps} wrapped ui={false} />
             <Card.Content>
               <Card.Description>
-                Rock paper scissors
+                ROCK PAPER SCISSORS - Side-project over the course of 2 weeks
+                <br></br>
+                Built with HTML, CSS, Javascript
+                <br></br>
+                Tested with npm, End-To-End Testing Training Wheels
               </Card.Description>
             </Card.Content>
           </Card>
