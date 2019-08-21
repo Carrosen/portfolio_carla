@@ -11,13 +11,15 @@ class App extends Component {
   render() {
     return (
       <>
-      <HeaderMenu />
-        <Switch>
-          <Route exact path='/' component={LandingPage}></Route>
-          <Route exact path='/portfolio' component={Portfolio}></Route>
-          <Route exact path='/about' component={About}></Route>
-          <Route exact path='/contact' component={Contact}></Route>
-        </Switch>
+      <div id='background-photo'>
+        <HeaderMenu />
+          <Switch>
+            <Route exact path='/' component={LandingPage}></Route>
+            <Route exact path='/portfolio' component={Portfolio}></Route>
+            <Route exact path='/about' component={About}></Route>
+            <Route exact path='/contact' component={Contact}></Route>
+          </Switch>
+        </div>
       </>
     );
   }

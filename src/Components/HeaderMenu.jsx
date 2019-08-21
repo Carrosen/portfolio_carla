@@ -3,23 +3,27 @@ import { Link } from 'react-router-dom'
 import { Menu, Container } from 'semantic-ui-react'
 
 class HeaderMenu extends Component {
-  
+
   render() {
     return (
       <>
-      <Container>
-        <Menu secondary>
-          <Menu.Item
-            as={Link}
-            to='/'
-          >CARLA ROSÉN</Menu.Item>
+        <Container>
+          <Menu secondary>
+            <Menu.Item
+              as={Link}
+              to='/'
+            >
+              CARLA ROSÉN
+          </Menu.Item>
 
             <Menu.Menu position='right' className='container'>
               <Menu.Item
                 name='portfolio'
                 as={Link}
                 to='/portfolio'
-              >PORTFOLIO</Menu.Item>
+              >
+                PORTFOLIO
+              </Menu.Item>
 
               <Menu.Item
                 name='ABOUT'
@@ -33,7 +37,7 @@ class HeaderMenu extends Component {
                 to='/contact'
               />
             </Menu.Menu>
-        </Menu>
+          </Menu>
         </Container>
       </>
     )

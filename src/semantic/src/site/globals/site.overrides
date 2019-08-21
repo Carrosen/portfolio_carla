@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  color: #75A1AD !important;
+  color: white !important;
 }
 
 /*******************************
@@ -24,13 +24,11 @@ body {
   margin: 60px 0px 20px 0px;
 }
 
-/*
-#color-block {
-  background-color: #3F515F;
-  margin: 60px 0px 0px 0px;
-  height: 200px;
+#background-photo {
+  background-image: url("https://i.pinimg.com/originals/04/52/01/0452018cd70bb10b01f541eac992bb88.jpg");
+  padding: 50px 0 50px 0;
+  height: 600px;
 }
-*/
 
 #icon-linkedin {
   color: #3F515F; 
@@ -42,10 +40,11 @@ body {
 
 .ui.secondary.menu  {
   margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .ui.secondary.menu .item {
-  color: #3F515F !important;
+  color: black !important;
   font-family: 'Source Code Pro';
 }
 
@@ -67,7 +66,8 @@ img {
 
 .text {
   text-align: center;
-  margin: 60px 0px 20px 0px;
+  margin: 170px 0px 20px 0px;
+  color: #3F515F;
 }
 
 /*******************************
@@ -84,5 +84,6 @@ img {
 *******************************/
 
 .about-text {
-  font-size: 25px !important;
+  font-size: 20px !important;
+  margin: 0px 50px 0px 50px !important;
 }
