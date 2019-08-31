@@ -31,11 +31,11 @@ body {
 }
 
 #icon-linkedin {
-  color: #3F515F; 
+  color: #3F515F;
 }
 
 #icon-github {
-  color: #3F515F; 
+  color: #3F515F;
 }
 
 .ui.secondary.menu  {
@@ -70,12 +70,21 @@ img {
   color: #3F515F;
 }
 
+.component-text {
+  text-align: center;
+  color: black;
+  margin: 100px 0px 20px 0px;
+}
+
 /*******************************
          Contact
 *******************************/
 
 .contact-text {
-  font-size: 30px !important;
+  font-size: 20px !important;
+  margin: 0px 50px 0px 50px !important;
+  color: black;
+  text-align: center;
 }
 
 
@@ -84,6 +93,8 @@ img {
 *******************************/
 
 .about-text {
-  font-size: 20px !important;
+  font-size: 17px !important;
   margin: 0px 50px 0px 50px !important;
+  color: black;
+  text-align: center;
 }

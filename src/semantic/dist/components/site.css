@@ -212,7 +212,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v10/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevT.ttf) format('truetype');
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevT.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -275,6 +275,11 @@ img {
   margin: 170px 0px 20px 0px;
   color: #3F515F;
 }
+.component-text {
+  text-align: center;
+  color: black;
+  margin: 100px 0px 20px 0px;
+}
 
 
 /*******************************
@@ -282,7 +287,10 @@ img {
 *******************************/
 
 .contact-text {
-  font-size: 30px !important;
+  font-size: 20px !important;
+  margin: 0px 50px 0px 50px !important;
+  color: black;
+  text-align: center;
 }
 
 
@@ -291,6 +299,8 @@ img {
 *******************************/
 
 .about-text {
-  font-size: 20px !important;
+  font-size: 17px !important;
   margin: 0px 50px 0px 50px !important;
+  color: black;
+  text-align: center;
 }

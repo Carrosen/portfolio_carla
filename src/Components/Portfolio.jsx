@@ -12,9 +12,9 @@ class Portfolio extends Component {
       <>
         <Container>
 
-          <div className='text'>
-            <h1>A selection of my projects</h1>
-            <p>Click to be redirected to an application</p>
+          <div>
+            <h1 className='component-text'>A selection of my projects</h1>
+            <p className='about-text'>Click to be redirected to an application</p>
           </div>
 
           <br></br>
