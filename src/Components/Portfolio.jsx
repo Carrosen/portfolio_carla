@@ -10,72 +10,72 @@ class Portfolio extends Component {
   render() {
     return (
       <>
-        <Container>
+        <div className='background-color'>
+          <Container>
 
-          <div>
-            <h1 className='component-text'>A selection of my projects</h1>
-            <p className='about-text'>Click to be redirected to an application</p>
-          </div>
+            <div>
+              <h1 className='component-text'>A selection of my projects</h1>
+              <p className='about-text'>Click to be redirected to an application</p>
+            </div>
 
-          <br></br>
-          <Divider></Divider>
-          <br></br>
+            <br></br>
+            <Divider></Divider>
+            <br></br>
 
-          <Card.Group itemsPerRow={2}>
-          <Card href="https://cooper-calculator.netlify.com/">
-            <Image src={cooper} wrapped ui={false} />
-            <Card.Content>
-              <Card.Description>
-                COOPER - 1 week challenge
+            <Card.Group itemsPerRow={2}>
+              <Card href="https://cooper-calculator.netlify.com/">
+                <Image src={cooper} wrapped ui={false} />
+                <Card.Content>
+                  <Card.Description>
+                    COOPER - 1 week challenge
                 <br></br>
-                Built with ReactJS, Ruby on Rails
+                    Built with ReactJS, Ruby on Rails
                 <br></br>
-                Tested with RSpec, Cypress, Enzyme
+                    Tested with RSpec, Cypress, Enzyme
               </Card.Description>
-            </Card.Content>
-          </Card>
+                </Card.Content>
+              </Card>
 
-          <Card href="https://glocal-news.netlify.com/">
-            <Image src={glocalNews} wrapped ui={false} />
-            <Card.Content>
-              <Card.Description>
-                GLOCAL NEWS - 3 week challenge
+              <Card href="https://glocal-news.netlify.com/">
+                <Image src={glocalNews} wrapped ui={false} />
+                <Card.Content>
+                  <Card.Description>
+                    GLOCAL NEWS - 3 week challenge
                 <br></br>
-                Built with ReactJS, Ruby on Rails
+                    Built with ReactJS, Ruby on Rails
                 <br></br>
-                Tested with RSpec, Cypress, Enzyme
+                    Tested with RSpec, Cypress, Enzyme
               </Card.Description>
-            </Card.Content>
-          </Card>
+                </Card.Content>
+              </Card>
 
-          <Card>
-            <Image src={beingSthlm} wrapped ui={false} />
-            <Card.Content>
-              <Card.Description>
-                BEING STOCKHOLM - Final project over 3 weeks
+              <Card>
+                <Image src={beingSthlm} wrapped ui={false} />
+                <Card.Content>
+                  <Card.Description>
+                    BEING STOCKHOLM - Final project over 3 weeks
                 <br></br>
-                Built with ReactJS, Ruby on Rails
+                    Built with ReactJS, Ruby on Rails
                 <br></br>
-                Tested with RSpec, Cypress
+                    Tested with RSpec, Cypress
               </Card.Description>
-            </Card.Content>
-          </Card>
+                </Card.Content>
+              </Card>
 
-          <Card href="https://rock-paper-scissors-carrosen.netlify.com/">
-            <Image src={rps} wrapped ui={false} />
-            <Card.Content>
-              <Card.Description>
-                ROCK PAPER SCISSORS - Side-project over the course of 2 weeks
+              <Card href="https://rock-paper-scissors-carrosen.netlify.com/">
+                <Image src={rps} wrapped ui={false} />
+                <Card.Content>
+                  <Card.Description>
+                    ROCK PAPER SCISSORS - Side-project over the course of 2 weeks
                 <br></br>
-                Built with HTML, CSS, Javascript
-                <br></br>
-                Tested with npm, End-To-End Testing Training Wheels
+                    Built with HTML, CSS, Javascript
               </Card.Description>
-            </Card.Content>
-          </Card>
-          </Card.Group>
+                </Card.Content>
+              </Card>
+            </Card.Group>
 
-        </Container>
+          </Container>
+        </div>
       </>
     )
   }

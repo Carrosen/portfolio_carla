@@ -16,18 +16,30 @@ body {
   color: white !important;
 }
 
+#header {
+  background-color: #94A4A4;
+  padding: 40px 0 0px 0;
+}
+
+.background-color {
+  background-color: #94A4A4;
+  height: 100% !important;
+}
+
 /*******************************
          LandingPage
 *******************************/
-
 #landing-page {
-  margin: 60px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
 }
 
 #background-photo {
-  background-image: url("https://i.pinimg.com/originals/04/52/01/0452018cd70bb10b01f541eac992bb88.jpg");
-  padding: 50px 0 50px 0;
-  height: 600px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/10/18/03/laptop-3214756_960_720.png);
+  padding: 0px 0 50px 0;
+  height: 500px;
+  background-repeat: no-repeat !important;
+  background-color: #94A4A4;
+  background-position: center;
 }
 
 #icon-linkedin {
@@ -40,7 +52,7 @@ body {
 
 .ui.secondary.menu  {
   margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .ui.secondary.menu .item {
@@ -51,6 +63,10 @@ body {
 img {
   height: 300px;
   width: 300px;
+}
+
+.footer {
+  background-color: #CADADB;
 }
 
 /*******************************
@@ -66,7 +82,7 @@ img {
 
 .text {
   text-align: center;
-  margin: 170px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   color: #3F515F;
 }
 
@@ -93,8 +109,8 @@ img {
 *******************************/
 
 .about-text {
-  font-size: 17px !important;
+  font-size: 20px !important;
+  font-family: 'Open Sans';
   margin: 0px 50px 0px 50px !important;
-  color: black;
-  text-align: center;
+  color: #3F515F;
 }

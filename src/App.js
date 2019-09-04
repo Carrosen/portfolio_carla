@@ -11,7 +11,6 @@ class App extends Component {
   render() {
     return (
       <>
-      <div id='background-photo'>
         <HeaderMenu />
           <Switch>
             <Route exact path='/' component={LandingPage}></Route>
@@ -19,7 +18,6 @@ class App extends Component {
             <Route exact path='/about' component={About}></Route>
             <Route exact path='/contact' component={Contact}></Route>
           </Switch>
-        </div>
       </>
     );
   }

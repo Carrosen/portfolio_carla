@@ -6,6 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <>
+      <div className='background-color'>
         <Container>
           <div>
             <h1 className='component-text'>Contact</h1>
@@ -42,6 +43,7 @@ class Contact extends Component {
             </Item>
           </div>
         </Container>
+        </div>
       </>
     )
   }

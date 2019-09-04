@@ -7,38 +7,40 @@ class HeaderMenu extends Component {
   render() {
     return (
       <>
-        <Container>
-          <Menu secondary>
-            <Menu.Item
-              as={Link}
-              to='/'
-            >
-              CARLA ROSÉN
+        <div id='header'>
+          <Container>
+            <Menu secondary>
+              <Menu.Item
+                as={Link}
+                to='/'
+              >
+                CARLA ROSÉN
           </Menu.Item>
 
-            <Menu.Menu position='right' className='container'>
-              <Menu.Item
-                name='portfolio'
-                as={Link}
-                to='/portfolio'
-              >
-                PORTFOLIO
+              <Menu.Menu position='right' className='container'>
+                <Menu.Item
+                  name='portfolio'
+                  as={Link}
+                  to='/portfolio'
+                >
+                  PORTFOLIO
               </Menu.Item>
 
-              <Menu.Item
-                name='ABOUT'
-                as={Link}
-                to='/about'
-              />
+                <Menu.Item
+                  name='ABOUT'
+                  as={Link}
+                  to='/about'
+                />
 
-              <Menu.Item
-                name='CONTACT'
-                as={Link}
-                to='/contact'
-              />
-            </Menu.Menu>
-          </Menu>
-        </Container>
+                <Menu.Item
+                  name='CONTACT'
+                  as={Link}
+                  to='/contact'
+                />
+              </Menu.Menu>
+            </Menu>
+          </Container>
+        </div>
       </>
     )
   }
