@@ -801,7 +801,7 @@ body {
 
 .background-color-portfolio {
   background-color: #94A4A4;
-  height: 870px !important;
+  height: 1300px !important;
 }
 
 .background-color-about {
@@ -872,7 +872,7 @@ img {
 
 .component-text {
   text-align: center;
-  color: black;
+  color: #3F515F;
   margin: 100px 0px 20px 0px;
 }
 
@@ -883,7 +883,7 @@ img {
 .contact-text {
   font-size: 20px !important;
   margin: 0px 50px 0px 50px !important;
-  color: black;
+  color: #3F515F;
   text-align: center;
 }
 

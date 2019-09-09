@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Icon, Item, Image, Grid, Divider } from 'semantic-ui-react'
+import { Container, Icon, Image, Grid, Divider } from 'semantic-ui-react'
 import cr from '../cr.png'
 
 class LandingPage extends Component {
@@ -41,28 +41,6 @@ class LandingPage extends Component {
           </Grid>
         </Container>
         <br></br>
-
-        <div className='footer'>
-          <Item
-            href="https://www.linkedin.com/in/carla-ros%C3%A9n-9a4903189/"
-            id='icon-linkedin'
-          >
-            <Icon
-              name="linkedin square"
-              size="huge"
-            />
-          </Item>
-
-          <Item
-            href="https://github.com/Carrosen"
-            id='icon-github'
-          >
-            <Icon
-              name="github square"
-              size="huge"
-            />
-          </Item>
-        </div>
       </>
     )
   }

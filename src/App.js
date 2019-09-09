@@ -5,6 +5,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import HeaderMenu from './Components/HeaderMenu'
 import Portfolio from './Components/Portfolio'
+import Footer from './Components/Footer'
 
 class App extends Component {
 
@@ -18,6 +19,7 @@ class App extends Component {
             <Route exact path='/about' component={About}></Route>
             <Route exact path='/contact' component={Contact}></Route>
           </Switch>
+        <Footer />
       </>
     );
   }
