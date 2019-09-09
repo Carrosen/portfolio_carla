@@ -794,9 +794,19 @@ body {
   padding: 40px 0 0px 0;
 }
 
-.background-color {
+.background-color-contact {
   background-color: #94A4A4;
-  height: 100% !important;
+  height: 870px !important;
+}
+
+.background-color-portfolio {
+  background-color: #94A4A4;
+  height: 870px !important;
+}
+
+.background-color-about {
+  background-color: #94A4A4;
+  height: 870px !important;
 }
 
 /*******************************
@@ -810,7 +820,7 @@ body {
 #background-photo {
   background-image: url(https://cdn.pixabay.com/photo/2018/03/10/18/03/laptop-3214756_960_720.png);
   padding: 0px 0 50px 0;
-  height: 500px;
+  height: 400px;
   background-repeat: no-repeat !important;
   background-color: #94A4A4;
   background-position: center;

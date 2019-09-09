@@ -7,8 +7,8 @@ class LandingPage extends Component {
   render() {
     return (
       <>
-            <div id='background-photo'>
-            </div>
+        <div id='background-photo'>
+        </div>
         <Container id='landing-page'>
           <div className='portfolio-text'>
             {/* <p>Hi, I'm Carla</p>
@@ -43,26 +43,26 @@ class LandingPage extends Component {
         <br></br>
 
         <div className='footer'>
-            <Item
-              href="https://www.linkedin.com/in/carla-ros%C3%A9n-9a4903189/"
-              id='icon-linkedin'
-            >
-              <Icon
-                name="linkedin square"
-                size="huge"
-              />
-            </Item>
+          <Item
+            href="https://www.linkedin.com/in/carla-ros%C3%A9n-9a4903189/"
+            id='icon-linkedin'
+          >
+            <Icon
+              name="linkedin square"
+              size="huge"
+            />
+          </Item>
 
-            <Item
-              href="https://github.com/Carrosen"
-              id='icon-github'
-            >
-              <Icon
-                name="github square"
-                size="huge"
-              />
-            </Item>
-          </div>
+          <Item
+            href="https://github.com/Carrosen"
+            id='icon-github'
+          >
+            <Icon
+              name="github square"
+              size="huge"
+            />
+          </Item>
+        </div>
       </>
     )
   }

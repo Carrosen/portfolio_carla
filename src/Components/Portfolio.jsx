@@ -10,7 +10,7 @@ class Portfolio extends Component {
   render() {
     return (
       <>
-        <div className='background-color'>
+        <div className='background-color-portfolio'>
           <Container>
 
             <div>

@@ -15,7 +15,7 @@ class HeaderMenu extends Component {
                 to='/'
               >
                 CARLA ROSÉN
-          </Menu.Item>
+              </Menu.Item>
 
               <Menu.Menu position='right' className='container'>
                 <Menu.Item
@@ -24,7 +24,7 @@ class HeaderMenu extends Component {
                   to='/portfolio'
                 >
                   PORTFOLIO
-              </Menu.Item>
+                </Menu.Item>
 
                 <Menu.Item
                   name='ABOUT'
