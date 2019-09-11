@@ -801,7 +801,7 @@ body {
 
 .background-color-portfolio {
   background-color: #94A4A4;
-  height: 1300px !important;
+  height: 1400px !important;
 }
 
 .background-color-about {
@@ -840,8 +840,9 @@ body {
 }
 
 .ui.secondary.menu .item {
-  color: black !important;
+  color: white !important;
   font-family: 'Source Code Pro';
+  font-size: 20px;
 }
 
 img {
@@ -850,7 +851,15 @@ img {
 }
 
 .footer {
-  background-color: #CADADB;
+  background-color: #ADC6C2;
+}
+
+#portfolio-button {
+  background-color: #CDD9D7;
+  color: #3F515F;
+  margin: 0 auto;
+  display: block;
+  width: 250px;
 }
 
 /*******************************
@@ -873,7 +882,8 @@ img {
 .component-text {
   text-align: center;
   color: #3F515F;
-  margin: 100px 0px 20px 0px;
+  padding: 50px 0px 0px 0px;
+  margin: 0px 0px 40px 0px;
 }
 
 /*******************************
@@ -882,7 +892,7 @@ img {
 
 .contact-text {
   font-size: 20px !important;
-  margin: 0px 50px 0px 50px !important;
+  margin: 40px 50px 0px 50px !important;
   color: #3F515F;
   text-align: center;
 }
@@ -892,6 +902,13 @@ img {
 *******************************/
 
 .about-text {
+  font-size: 20px !important;
+  font-family: 'Open Sans';
+  margin: 20px 200px 0px 200px !important;
+  color: #3F515F;
+}
+
+.about-text-landing {
   font-size: 20px !important;
   font-family: 'Open Sans';
   margin: 0px 50px 0px 50px !important;

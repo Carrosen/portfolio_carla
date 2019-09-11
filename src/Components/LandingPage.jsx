@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
-import { Container, Icon, Image, Grid, Divider } from 'semantic-ui-react'
+import { Container, Icon, Image, Grid, Divider, Button } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 import cr from '../cr.png'
 
 class LandingPage extends Component {
+
+  projectsButton() {
+    window.scrollTo(0, 0)
+  }
 
   render() {
     return (
@@ -26,11 +31,11 @@ class LandingPage extends Component {
           <br></br>
           <br></br>
 
-          <Grid columns={2}>
+          <Grid columns={2} id='grid'>
             <Grid.Column width={10}>
-              <p className='about-text'>I recently joined a bootcamp to start my journey as a Full Stack Software Developer, I chose to study this way since I'm a visual learner and believe in learning by doing. Because in theory everything is possible - And I'm all in for discovering what I can achieve.</p>
+              <p className='about-text-landing'>I recently joined a bootcamp to start my journey as a Full Stack Software Developer, I chose to study this way since I'm a visual learner and believe in learning by doing. Because in theory everything is possible - And I'm all in for discovering what I can achieve.</p>
               <br></br>
-              <p className='about-text'>I learned and practiced pair programming, test-driven development, design prints, agile methods, version control with Git and more. Web development mainly with ReactJS and Ruby on Rails, as well as HTML, CSS, JavaScript, Ruby and various styling frameworks.</p>
+              <p className='about-text-landing'>I learned and practiced pair programming, agile methods, Test Driven Development, Version control with Git, design prints and more. I mainly worked with ReactJS and Ruby on Rails, as well as HTML, CSS, JavaScript, Ruby and various styling frameworks.</p>
             </Grid.Column>
 
             <Grid.Column width={6}>
@@ -39,6 +44,14 @@ class LandingPage extends Component {
               </div>
             </Grid.Column>
           </Grid>
+
+          <Button
+            id='portfolio-button'
+            as={Link}
+            to={{ pathname: '/portfolio' }}
+            size='huge'
+            onClick={this.projectsButton}
+          >VIEW PROJECTS ⟶</Button>
         </Container>
         <br></br>
       </>
