@@ -10,9 +10,9 @@ class Contact extends Component {
           <Container>
             <div>
               <h1 className='component-text'>Contact</h1>
-              <Divider></Divider>
-              <p className='contact-text'>If you would like to get in touch with me, please email me here: </p>
-              <p className='contact-text'>carla1.rosen@gmail.com</p>
+                <Divider></Divider>
+                <p className='contact-text'>If you would like to get in touch with me, please email me here: </p>
+                <p className='contact-text'>carla1.rosen@gmail.com</p>
             </div>
           </Container>
         </div>

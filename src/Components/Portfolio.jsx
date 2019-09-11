@@ -12,27 +12,24 @@ class Portfolio extends Component {
       <>
         <div className='background-color-portfolio'>
           <Container>
-
             <div>
               <h1 className='component-text'>A selection of my projects</h1>
               <p className='about-text'>Click to be redirected to an application</p>
             </div>
 
-            <br></br>
             <Divider></Divider>
-            <br></br>
 
-            <Card.Group itemsPerRow={2}>
+            <Card.Group itemsPerRow={2} id='card-group'>
               <Card href="https://cooper-calculator.netlify.com/">
                 <Image src={cooper} wrapped ui={false} />
                 <Card.Content>
                   <Card.Description>
                     COOPER - 1 week challenge
-                <br></br>
+                    <br></br>
                     Built with ReactJS, Ruby on Rails
-                <br></br>
+                    <br></br>
                     Tested with RSpec, Cypress, Enzyme
-              </Card.Description>
+                  </Card.Description>
                 </Card.Content>
               </Card>
 
@@ -41,11 +38,11 @@ class Portfolio extends Component {
                 <Card.Content>
                   <Card.Description>
                     GLOCAL NEWS - 3 week challenge
-                <br></br>
+                   <br></br>
                     Built with ReactJS, Ruby on Rails
-                <br></br>
+                   <br></br>
                     Tested with RSpec, Cypress, Enzyme
-              </Card.Description>
+                  </Card.Description>
                 </Card.Content>
               </Card>
 
@@ -54,11 +51,11 @@ class Portfolio extends Component {
                 <Card.Content>
                   <Card.Description>
                     BEING STOCKHOLM - Final project over 3 weeks
-                <br></br>
+                    <br></br>
                     Built with ReactJS, Ruby on Rails
-                <br></br>
+                    <br></br>
                     Tested with RSpec, Cypress
-              </Card.Description>
+                  </Card.Description>
                 </Card.Content>
               </Card>
 
@@ -67,13 +64,12 @@ class Portfolio extends Component {
                 <Card.Content>
                   <Card.Description>
                     ROCK PAPER SCISSORS - Side-project over the course of 2 weeks
-                <br></br>
+                    <br></br>
                     Built with HTML, CSS, Javascript
-              </Card.Description>
+                  </Card.Description>
                 </Card.Content>
               </Card>
             </Card.Group>
-
           </Container>
         </div>
       </>

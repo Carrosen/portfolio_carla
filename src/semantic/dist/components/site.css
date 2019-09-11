@@ -232,7 +232,7 @@ body {
 }
 .background-color-contact {
   background-color: #94A4A4;
-  height: 870px !important;
+  height: 660px !important;
 }
 .background-color-portfolio {
   background-color: #94A4A4;
@@ -240,7 +240,7 @@ body {
 }
 .background-color-about {
   background-color: #94A4A4;
-  height: 870px !important;
+  height: 660px !important;
 }
 
 
@@ -260,10 +260,15 @@ body {
   background-position: center;
 }
 #icon-linkedin {
-  color: #3F515F;
+  color: white;
 }
 #icon-github {
-  color: #3F515F;
+  color: white;
+}
+#icons {
+  margin: 0px 50px 0px 50px;
+  padding: 50px 0px 0px 0px;
+  text-align: center;
 }
 .ui.secondary.menu {
   margin-top: 2rem !important;
@@ -279,14 +284,23 @@ img {
   width: 300px;
 }
 .footer {
-  background-color: #ADC6C2;
+  background-color: #CDD9D7;
+  height: 200px;
 }
 #portfolio-button {
   background-color: #CDD9D7;
-  color: #3F515F;
-  margin: 0 auto;
-  display: block;
   width: 250px;
+  color: #3F515F;
+}
+#button-div {
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+#grid {
+  margin: 40px 0px 0px 0px;
+}
+#icon-circle {
+  margin: 0px 0px 30px 0px;
 }
 
 
@@ -302,7 +316,7 @@ img {
 }
 .text {
   text-align: center;
-  margin: 0px 0px 20px 0px;
+  margin: 50px 0px 20px 0px;
   color: #3F515F;
 }
 .component-text {
@@ -332,8 +346,9 @@ img {
 .about-text {
   font-size: 20px !important;
   font-family: 'Open Sans';
-  margin: 20px 200px 0px 200px !important;
+  margin: 60px 200px 0px 200px !important;
   color: #3F515F;
+  text-align: center;
 }
 .about-text-landing {
   font-size: 20px !important;
