@@ -20,7 +20,9 @@ class Portfolio extends Component {
             <Divider></Divider>
 
             <Card.Group itemsPerRow={2} id='card-group'>
-              <Card href="https://cooper-calculator.netlify.com/">
+
+
+              <Card onClick={()=> window.open("https://cooper-calculator.netlify.com/", "_blank")}>
                 <Image src={cooper} wrapped ui={false} />
                 <Card.Content>
                   <Card.Description>
