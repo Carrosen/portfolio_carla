@@ -22,6 +22,32 @@ class Portfolio extends Component {
             <Card.Group itemsPerRow={2} id='card-group'>
 
 
+              <Card onClick={()=> window.open("https://being-stockholm.netlify.com/", "_blank")}>
+                <Image src={beingSthlm} wrapped ui={false} />
+                <Card.Content>
+                  <Card.Description>
+                    BEING STOCKHOLM - Final project over 3 weeks
+                    <br></br>
+                    Built with ReactJS, Ruby on Rails
+                    <br></br>
+                    Tested with RSpec, Cypress
+                  </Card.Description>
+                </Card.Content>
+              </Card>
+
+              <Card onClick={()=> window.open("https://glocal-news.netlify.com/", "_blank")}>
+                <Image src={glocalNews} wrapped ui={false} />
+                <Card.Content>
+                  <Card.Description>
+                    GLOCAL NEWS - 3 week challenge
+                   <br></br>
+                    Built with ReactJS, Ruby on Rails
+                   <br></br>
+                    Tested with RSpec, Cypress, Enzyme
+                  </Card.Description>
+                </Card.Content>
+              </Card>
+
               <Card onClick={()=> window.open("https://cooper-calculator.netlify.com/", "_blank")}>
                 <Image src={cooper} wrapped ui={false} />
                 <Card.Content>
@@ -35,33 +61,7 @@ class Portfolio extends Component {
                 </Card.Content>
               </Card>
 
-              <Card href="https://glocal-news.netlify.com/">
-                <Image src={glocalNews} wrapped ui={false} />
-                <Card.Content>
-                  <Card.Description>
-                    GLOCAL NEWS - 3 week challenge
-                   <br></br>
-                    Built with ReactJS, Ruby on Rails
-                   <br></br>
-                    Tested with RSpec, Cypress, Enzyme
-                  </Card.Description>
-                </Card.Content>
-              </Card>
-
-              <Card href="https://being-stockholm.netlify.com/">
-                <Image src={beingSthlm} wrapped ui={false} />
-                <Card.Content>
-                  <Card.Description>
-                    BEING STOCKHOLM - Final project over 3 weeks
-                    <br></br>
-                    Built with ReactJS, Ruby on Rails
-                    <br></br>
-                    Tested with RSpec, Cypress
-                  </Card.Description>
-                </Card.Content>
-              </Card>
-
-              <Card href="https://rock-paper-scissors-carrosen.netlify.com/">
+              <Card onClick={()=> window.open("https://rock-paper-scissors-carrosen.netlify.com/", "_blank")}>
                 <Image src={rps} wrapped ui={false} />
                 <Card.Content>
                   <Card.Description>
