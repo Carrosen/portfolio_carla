@@ -46,7 +46,7 @@ class Portfolio extends Component {
                 </Card.Content>
               </Card>
 
-              <Card>
+              <Card href="https://being-stockholm.netlify.com/">
                 <Image src={beingSthlm} wrapped ui={false} />
                 <Card.Content>
                   <Card.Description>
