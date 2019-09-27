@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Card, Image, Divider } from 'semantic-ui-react'
+import { Container, Card, Image, Divider, Button } from 'semantic-ui-react'
 import cooper from '../cooper.png'
 import beingSthlm from '../beingsthlm.png'
 import glocalNews from '../glocalnews.png'
@@ -14,7 +14,7 @@ class Portfolio extends Component {
           <Container>
             <div>
               <h1 className='component-text'>A selection of my projects</h1>
-              <p className='about-text'>Click to be redirected to an application</p>
+              <p className='about-text'>Click to open an application</p>
             </div>
 
             <Divider></Divider>
@@ -26,6 +26,17 @@ class Portfolio extends Component {
                 <Image src={beingSthlm} wrapped ui={false} />
                 <Card.Content>
                   <Card.Description>
+                  <Button
+                      onClick={()=> window.open("https://facebook.com/", "_blank")}
+                    >
+                      Github - Frontend
+                    </Button>
+                    <Button
+                      onClick={()=> window.open("https://facebook.com/", "_blank")}
+                    >
+                      Github - Backend
+                    </Button>
+                    <br></br>
                     BEING STOCKHOLM - Final project over 3 weeks
                     <br></br>
                     Built with ReactJS, Ruby on Rails

@@ -130,6 +130,10 @@ img {
   margin: 0px 0px 40px 0px;
 }
 
+.ui.cards>.card>.content>.description {
+  text-align: center !important;
+}
+
 /*******************************
          Contact
 *******************************/
