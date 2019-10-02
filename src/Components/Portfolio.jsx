@@ -26,17 +26,6 @@ class Portfolio extends Component {
                 <Image src={beingSthlm} wrapped ui={false} />
                 <Card.Content>
                   <Card.Description>
-                  <Button
-                      onClick={()=> window.open("https://facebook.com/", "_blank")}
-                    >
-                      Github - Frontend
-                    </Button>
-                    <Button
-                      onClick={()=> window.open("https://facebook.com/", "_blank")}
-                    >
-                      Github - Backend
-                    </Button>
-                    <br></br>
                     BEING STOCKHOLM - Final project over 3 weeks
                     <br></br>
                     Built with ReactJS, Ruby on Rails

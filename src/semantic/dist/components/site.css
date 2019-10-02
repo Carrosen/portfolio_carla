@@ -196,3 +196,166 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
         Global Overrides
 *******************************/
 
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+body {
+  background-color: white;
+}
+.container {
+  color: white !important;
+}
+#header {
+  background-color: #94A4A4;
+  padding: 40px 0 0px 0;
+}
+.background-color-contact {
+  background-color: #94A4A4;
+  height: 660px !important;
+}
+.background-color-portfolio {
+  background-color: #94A4A4;
+  height: 1400px !important;
+}
+.background-color-about {
+  background-color: #94A4A4;
+  height: 660px !important;
+}
+
+
+/*******************************
+         LandingPage
+*******************************/
+
+#landing-page {
+  padding: 0px 0px 20px 0px;
+}
+#background-photo {
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/10/18/03/laptop-3214756_960_720.png);
+  padding: 0px 0 50px 0;
+  height: 400px;
+  background-repeat: no-repeat !important;
+  background-color: #94A4A4;
+  background-position: center;
+}
+#icon-linkedin {
+  color: white;
+}
+#icon-github {
+  color: white;
+}
+#icons {
+  margin: 0px 50px 0px 50px;
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+}
+.ui.secondary.menu {
+  margin-top: 2rem !important;
+  margin-bottom: 0rem !important;
+}
+.ui.secondary.menu .item {
+  color: white !important;
+  font-family: 'Source Code Pro';
+  font-size: 20px;
+}
+img {
+  height: 300px;
+  width: 300px;
+}
+.footer {
+  background-color: #CDD9D7;
+  height: 200px;
+}
+#portfolio-button {
+  background-color: #CDD9D7;
+  width: 250px;
+  color: #3F515F;
+}
+#button-div {
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+#grid {
+  margin: 40px 0px 0px 0px;
+}
+#icon-circle {
+  margin: 0px 0px 30px 0px;
+}
+
+
+/*******************************
+         Portfolio
+*******************************/
+
+.portfolio-text {
+  text-align: center;
+  font-size: 55px;
+  margin: 60px 0px 20px 0px;
+  font-family: 'Open Sans';
+}
+.text {
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+  color: #3F515F;
+}
+.component-text {
+  text-align: center;
+  color: #3F515F;
+  padding: 50px 0px 0px 0px;
+  margin: 0px 0px 40px 0px;
+}
+.ui.cards > .card > .content > .description {
+  text-align: center !important;
+}
+
+
+/*******************************
+         Contact
+*******************************/
+
+.contact-text {
+  font-size: 20px !important;
+  margin: 40px 50px 0px 50px !important;
+  color: #3F515F;
+  text-align: center;
+}
+
+
+/*******************************
+         About
+*******************************/
+
+.about-text {
+  font-size: 20px !important;
+  font-family: 'Open Sans';
+  margin: 60px 200px 0px 200px !important;
+  color: #3F515F;
+  text-align: center;
+}
+.about-text-landing {
+  font-size: 20px !important;
+  font-family: 'Open Sans';
+  margin: 0px 50px 0px 50px !important;
+  color: #3F515F;
+}
